@@ -70,7 +70,8 @@ $(document).ready(function() {
         "pageLength": 10,
         "ordering": true,
         "searching": true,
-        "order": [[0, "desc"]]
+        "order": [[0, "desc"]],
+        "responsive": true
     });
 });
 

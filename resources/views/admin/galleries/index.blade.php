@@ -51,7 +51,8 @@ $(document).ready(function() {
     $('#galleriesTable').DataTable({
         "pageLength": 10,
         "ordering": true,
-        "searching": true
+        "searching": true,
+        "responsive": true
     });
 });
 </script>

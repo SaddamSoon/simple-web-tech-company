@@ -53,7 +53,8 @@ $(document).ready(function() {
     $('#servicesTable').DataTable({
         "pageLength": 10,
         "ordering": true,
-        "searching": true
+        "searching": true,
+        "responsive": true
     });
 });
 </script>
